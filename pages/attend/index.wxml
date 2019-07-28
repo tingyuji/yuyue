@@ -1,0 +1,20 @@
+<view class="page-attend">
+  <view class="tip1">时间选择器</view>
+  <view class="view1">
+  <picker mode="time" value="{{time1}}" start="00:01" end="23:01" bindchange="bindTime1Change">
+              <view class="hit1">请选择开始时间</view>
+              <view class="time1">{{time1}}</view>
+  </picker>
+  </view>
+ 
+  <view class="tip2">时间选择器</view>
+  <view class="view2">
+  <picker mode="time" value="{{time2}}" start="00:01" end="23:01" bindchange="bindTime2Change">
+              <view class="hit2">请选择结束时间</view>
+              <view class="time2">{{time2}}</view>
+  </picker>
+  </view>
+  <view class="action-order">
+      <button type="primary" bindtap="bindOrder">确认预约</button>
+  </view>   
+</view>

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/create/index",
+    "pages/wechat/index",
+    "pages/attend/index",
+    "pages/orders/index",
+    "pages/my/index",
+    "pages/info/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "预约时间",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "icons/home81x81.png",
+        "iconPath": "icons/home81x81-2.png",
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "icons/edit81x81.png",
+        "iconPath": "icons/edit81x81-2.png",
+        "pagePath": "pages/create/index",
+        "text": "创建"
+      },
+      {
+        "selectedIconPath": "icons/time81x81.png",
+        "iconPath": "icons/time81x81-2.png",
+        "pagePath": "pages/info/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

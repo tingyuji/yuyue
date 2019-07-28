@@ -1,0 +1,70 @@
+.page-orders{
+    width: 98%;
+    margin:0 auto;
+    height: -webkit-fill-available;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-top: 2px;
+}
+.page-orders .title{
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    color:#000;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.page-orders .orders{
+    padding-top: 5px;
+}
+.page-orders .orders .order{
+    margin-top: 10px;
+    background-color: #fff;
+    height: 150px;
+    text-align: left;
+    padding-left: 5px;
+   
+}
+.page-orders .orders .order .nickname{
+    height: 30px;
+    padding-top: 10px;
+}
+.page-orders .orders .order .ordertitle{
+    height: 20px;
+}
+.page-orders .orders .order .time{
+    height: 50px;
+}
+.page-orders .action-cycle{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.page-orders .action-cycle button{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    vertical-align: middle;
+    border-radius: 75px;
+}
+.page-orders .action-cycle-home{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    position: fixed;
+    top: 77px;
+    right: 0px;
+}
+.page-orders .action-cycle-home button{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    vertical-align: middle;
+    border-radius: 75px;
+    background: #01DFA5;
+}

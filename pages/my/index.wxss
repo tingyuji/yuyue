@@ -1,0 +1,39 @@
+.page-orders{
+    width: 98%;
+    margin:0 auto;
+    height: -webkit-fill-available;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-top: 2px;
+}
+.page-orders .title{
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    color:#000;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.page-orders .orders{
+    padding-top: 5px;
+}
+.page-orders .orders .order{
+    margin-top: 10px;
+    background-color: #fff;
+    height: 150px;
+    text-align: left;
+    padding-left: 5px;
+   
+}
+.page-orders .orders .order .nickname{
+    height: 30px;
+    padding-top: 10px;
+}
+.page-orders .orders .order .ordertitle{
+    height: 20px;
+}
+.page-orders .orders .order .time{
+    height: 50px;
+}

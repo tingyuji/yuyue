@@ -1,0 +1,42 @@
+.page-create{
+    width: 98%;
+    margin:0 auto;
+    height: -webkit-fill-available;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 2px;
+}
+.page-create .title{
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.page-create .title input{
+    width: 100%;
+    color: #000;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: left;
+}
+.page-create .hit{
+    height:50px;
+    line-height:50px;
+    vertical-align: middle;
+    text-align: left;
+}
+.page-create .content{
+    margin-top:5px;
+    min-height: 100px;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+}
+.page-create .content textarea{
+    padding: 2px 2px;
+}
+.page-create .action-create{
+    margin: 15px;
+}

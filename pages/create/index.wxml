@@ -1,0 +1,13 @@
+<view class="page-create">
+    <view class="hit">请输入活动标题</view>
+    <view class="title">
+    <input  bindinput="bindKeyInput" placeholder="" value="{{title}}" focus="{{input}}"/>
+    </view>
+    <view class="hit">请输入活动描述</view>
+    <view class="content">
+        <textarea bindinput="bindTextAreaInput" bindfocus="bindfocus" placeholder="" focus="{{textarea}}"/>
+    </view>
+    <view class="action-create">
+        <button type="primary" bindtap="bindCreate">开始创建</button>
+    </view>    
+</view>

@@ -1,0 +1,12 @@
+<view class="page-orders">
+  <view class="title">当前您共有{{orders.length}}条预约信息</view>
+  <view class="orders">
+        <block wx:for="{{orders}}" wx:for-index="idx" wx:for-item="order">
+            <view class="order">
+            <view class="nickname" data-id="{{order.id}}">{{order.nickname}}</view>
+            <view class="ordertitle" data-id="{{order.id}}">{{order.title}}</view>
+            <view class="time" data-id="{{order.id}}">{{order.time1}}-{{order.time2}}</view>
+            </view>
+        </block>
+    </view>
+</view>

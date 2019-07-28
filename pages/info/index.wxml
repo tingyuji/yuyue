@@ -1,0 +1,10 @@
+<view class="page-info">
+    <view class="header">
+        <view class="avatar"><image class="avatarimage" style="background-color: #eeeeee;" mode="aspectFill" src="{{userInfo.avatarUrl}}"></image></view>
+        <view class="nickname">{{userInfo.nickName}}</view>
+    </view>
+    <view class="menu" bindtap="bindMyOrders" >
+    <image class="icon" style="background-color: #eeeeee;" mode="aspectFill" src="http://file.xiaomutong.com.cn/time201908727.png"></image>
+    <text class="title">我的预约</text>
+    </view>
+</view>

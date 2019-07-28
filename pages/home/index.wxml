@@ -1,0 +1,11 @@
+<view class="page-home">
+  <view class="title">当前平台共有{{projects.length}}个活动</view>
+  <view class="projects">
+        <block wx:for="{{projects}}" wx:for-index="idx" wx:for-item="project">
+            <view class="project" bindtap="toAttendPage" data-id="{{project.id}}" data-title="{{project.title}}">
+                <view class="image"><image style="width:100%; background-color: #eeeeee;" mode="widthFix" src="{{project.image}}"></image></view>
+                <view class="title">{{project.title}}</view>
+            </view>       
+        </block>
+    </view>
+</view>

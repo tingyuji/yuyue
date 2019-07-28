@@ -1,0 +1,68 @@
+.page-attend{
+    width: 98%;
+    margin:0 auto;
+    height: -webkit-fill-available;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 2px;
+}
+.page-attend .view1{
+    width:100%;
+    background:#fff;
+    text-align: left;
+}
+.page-attend .view2{
+    width:100%;
+    background:#fff;
+    margin-top: 10px;
+    text-align: left;
+}
+.page-attend .tip1{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    color:#000;
+    text-align: left;
+}
+.page-attend .tip2{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    color:#000;
+    text-align: left;
+}
+.page-attend .hit1{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #fff;
+    color:#000;
+    text-align: left;
+}
+.page-attend .hit2{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #fff;
+    color:#000;
+    text-align: left;
+}
+.page-attend .time1{
+    display: inline-block;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.page-attend .time2{
+    display: inline-block;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.page-attend .action-order{
+    margin: 15px;
+}

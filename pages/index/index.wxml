@@ -1,0 +1,13 @@
+<view class="page-index"> 
+    <view class="action">
+        <button type="primary" bindtap="bindHome">平台活动</button>
+    </view>  
+    <view class="action">
+        <button type="primary" bindtap="bindOrders">预约信息</button>
+    </view>   
+
+
+    <view class="action-cycle">
+        <button type="primary" bindtap="bindCreate">创建活动</button>
+    </view>  
+</view>
